@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito:400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <title>Makeup</title>
+</head>
+<body>
+    <div class="container">
+    
+      <header>
+              <nav class="top-bar" aria-label="Primary">
+                <div>
+                  <button class="btn" type="button">
+                    <span class="material-icons">menu</span>
+                  </button>
+                </div>
+                <ul class="menuuu">
+                  <li><a href=index.html class= "menu allitems" href="#">All Items</a></li>
+                  <li><a href=skincare.html class= "menu skincare" href="#">Skincare</a></li>
+                  <li><a href=makeup.html class= "menu makeup" href="#">Makeup</a></li>
+                  <!-- <li><a href=wellness.html class= "menu wellness"href="#">Wellness</a></li> -->
+                </ul>
+                <ul class="subitems">
+                  <li class="list-kit"><a href="#"><span class="material-icons topbar">favorite_border</span></a></li>
+                  <li class="list-kit"><a href="#"><span class="material-icons topbar">shopping_basket</span></a></li>
+                </ul>
+                <form class="search">
+                  <label>
+                    <input type="search" name="find" id="find">
+                  </label>
+                  <button type="button"><span class="material-icons">search</span></button>
+                </form>
+              </nav>
+
+              <a class="logo" href="index.html">
+                  <img class="head" src="img/logo-trans.png" alt="greenface Logo">
+                </a>
+
+        <!-- <footer>
+          <dl>
+            <dt>Rating</dt>
+            <dd class="rating"><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons"></span></dd>
+          </dl>
+          <data value="39"><del></del> <ins>$25.00</ins></data>
+          <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+          <!-- <button type="button"><span class="material-icons">favorite</span></button> -->
+          <!-- <a href="#">see more</a> -->
+        <!-- </footer> --> 
+      <!-- </form> -->
+      </header>
+    
+    <!-- Product 1 -->
+<section>
+
+    <h1 class="featured">skincare</h1>
+
+    <div class="layout">
+      <article class="product">
+        <header>
+          <img class="product-img" src="img/dropper-smol.jpg" alt="Serum Image">
+        </header>
+        <h3>greenface glo serum</h3>
+        <p>Concentrated ingredients will hydrate skin to give you that all-day dew.</p>
+        <form>
+          <fieldset>
+            <legend>Sizes</legend>
+            <ul>
+              <li><label><input class="sizes" type="radio" name="colour" value="r"> 1oz </label></li>
+              <li><label><input class="sizes" type="radio" name="colour" value="w"> 3oz </label></li>
+              <li><label><input class="sizes" type="radio" name="colour" value="b"> 5oz </label></li>
+            </ul>
+          </fieldset>
+
+          <footer>
+            <dl>
+              <dt>Rating</dt>
+              <dd class="rating"> <span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons"></span></dd>
+            </dl>
+            <data value="39"><del></del> <ins>$39.00</ins></data>
+            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">favorite</span></button>
+            <!-- <a href="#">see more</a> -->
+          </footer>
+        </form>
+      </article>
+
+      <!-- Product 2 -->
+      <article class = "product">
+        <header>
+          <img class="product-img" src="img/greenface-cleanser.jpg" alt="Cleanser Image">
+        </header>
+        <h3>cleanface</h3>
+        <p>Gentle oil-based cleanser washes away dirt, pollution, and makeup while nourishing and refreshing skin.</p>
+        <form>
+          <fieldset>
+            <legend>Sizes</legend>
+            <ul>
+              <li><label><input type="radio" name="colour" value="r"> 0.5oz</label></li>
+              <li><label><input type="radio" name="colour" value="w"> 1oz</label></li>
+              <li><label><input type="radio" name="colour" value="b"> 5oz</label></li>
+            </ul>
+          </fieldset>
+
+          <footer>
+            <dl>
+              <dt>Rating</dt>
+              <dd class="rating"><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons"></span></dd>
+            </dl>
+            <data value="39"><del></del> <ins>$28.00</ins></data>
+            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <!-- <button type="button"><span class="material-icons">favorite</span></button> -->
+            <!-- <a href="#">see more</a> -->
+          </footer>
+        </form>
+      </article>
+
+      <!-- Product 3 -->
+      <article class = "product">
+        <header>
+          <img class="product-img" src="img/night-mask.jpg" alt="Night Mask Image">
+        </header>
+        <h3>glo-face night mask</h3>
+        <p>Pillow Proof Plushness, need I say more?</p>
+        
+        <form>
+          <fieldset>
+            <legend>Sizes</legend>
+            <ol>
+              <li><label><input type="radio" name="size" value="m"> M</label></li>
+              <li><label><input type="radio" name="size" value="l"> L</label></li>
+              <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+            </ol>
+          </fieldset>
+
+          <footer>
+            <dl>
+              <dt>Rating</dt>
+              <dd class="rating"><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span></dd>
+            </dl>
+            <data value="39"><del></del> <ins>$39.00</ins></data>
+            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <!-- <button type="button"><span class="material-icons">favorite</span></button> -->
+            <!-- <a href="#">see more</a> -->
+          </footer>
+        </form>
+      </article>
+
+      <!-- Product 4 -->
+      <article class = "product">
+        <header>
+          <img class="product-img" src="img/masks2.jpg" alt="mask bag image">
+        </header>
+        <h3>glo-mask</h3>
+        <p>Beeswax infused face masks for that honey-soaked glo</p>
+        
+        <form>
+          <fieldset>
+            <legend>Colours</legend>
+            <ul>
+              <li><label><input type="radio" name="colour" value="r"> glo-mask Morning</label></li>
+              <li><label><input type="radio" name="colour" value="w"> glo-mask Night</label></li>
+            </ul>
+          </fieldset>
+
+          <footer>
+            <dl>
+              <dt>Rating</dt>
+              <dd class="rating"><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons"></span></dd>
+            </dl>
+            <data value="39"><del></del> <ins>$15.00</ins></data>
+            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <!-- <button type="button"><span class="material-icons">favorite</span></button> -->
+            <!-- <a href="#">see more</a> -->
+          </footer>
+        </form>
+      </article>
+  
+    </div>
+  </section>
+
+  <img class = "unsplash" src="img/unsplash.jpg" alt="backdrop pattern">
+
+  <section role="navigation" aria-label="Pagination">
+      <p>1-5 of 23 products found</p>
+      <ol>
+        <li class=choices><a href="#" aria-label="Current Page, Page 1" aria-current="true">1</a></li>
+        <li class=choices><a href="#" aria-label="Page 2">2</a></li>
+        <li class=choices><a href="#" aria-label="Page 3">3</a></li>
+        <li class=choices><a href="#" aria-label="Page 4">4</a></li>
+        <li class=choices><a href="#" aria-label="Page 5">5</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Copyright, 1991.</p>
+    <nav aria-label="Legal">
+      <ul>
+        <li class=choices><a href="#">Terms of Use</a></li>
+        <li class=choices><a href="#">Privacy Policy</a></li>
+        <li class=choices><a href="#">Accessibility Policy</a></li>
+      </ul>
+    </nav>
+    <ul>
+      <li class=choices><a href="#"><span class="material-icons">face</span> Facebook</a></li>
+      <li class=choices><a href="#"><span class="material-icons">camera_alt</span> Instagram</a></li>
+      <li class=choices><a href="#"><span class="material-icons">alternate_email</span> Twitter</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>

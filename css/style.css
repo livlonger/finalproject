@@ -1,0 +1,284 @@
+body {
+    font-family: 'Nunito', italic, sans-serif;
+    margin-top: 6em;
+    display: grid;
+}
+
+nav{
+    text-align: left;
+    display: block;
+    padding: 0 2em;
+    height: auto;
+    width: auto;
+    background-image: 
+}
+
+header{
+    padding: 0 0 0em 0;
+}
+
+
+legend {
+    padding: 1em;
+}
+
+article {
+    background-color: #FFFFFF;
+    padding: 3em;
+}
+
+li{
+    text-align: center;
+    padding: 0em;
+}
+
+
+ul {
+    display: inline-block;
+    text-align: justify;   
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+data {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding: 1em 0 1em 0;
+    text-shadow: 1px 1px 2px rgb(150, 149, 149);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px 3px #BE5B6A;
+    padding: 0.5em;
+    background-color: #F2B3B5;
+    filter: drop-shadow(0.1em 0.1em 0.1em #A5A5A5);
+}
+
+p {
+    font-family: 'Nunito', italic, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    padding: 0.5em;
+}
+
+section {
+    text-align: center;
+}
+
+  fieldset{
+      text-align: center;
+  }
+  footer{
+      text-align: center;
+  }
+
+  dt{
+      font-weight: bold ;
+      padding: 0.5em 0 0.5em 0;
+      font-size: 1.3em;
+  }
+  legend {
+      font-weight: bold;
+      font-size: 1.3em;
+  }
+
+.container {
+    max-width: 80em;
+    margin: auto;
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: black;
+    padding: 1em;
+}
+
+.menuuu {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+.btn: hover {
+    background-color: red;
+}
+/* .btn:hover + .menuuu{
+    /* display: block; */
+    /* display: grid;
+    grid-row: 2/3;
+    grid-column: 1/4; */
+/* } */
+
+.search{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: em;
+    color: black;
+}
+
+.btn{
+    padding: 0.5em;
+    display: inline;
+    justify-self: start;
+}
+
+.material-icons {
+    color: black;
+    /* filter: drop-shadow(0 0 0.1em rgb(231, 231, 231)); */
+    grid-row: 1/2;
+    grid-column: 3/3;
+}
+
+.subitems {
+    justify-self: end;
+}
+
+.top-bar{
+    background-color: #F2B3B5;
+    font-family: 'Nunito', bold, sans-serif;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position:  fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.search {
+    justify-self: center;
+}
+
+.list-kit{
+    text-align: right;
+}
+
+.logo { 
+    padding: 1em 0 1em 0;
+    background-image: url(../img/unsplash.jpg);
+    display: block;
+}
+.head {
+    max-width: 30em;
+}
+.checkout {
+    /* background-color: red; */
+}
+
+.featured {
+    background-color: #F2B3B5;
+    padding: 2em;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px #8C3541;
+}
+
+.product-img {
+    max-width: 100%;
+    filter: drop-shadow(0.5em 0.5em 0.5em #A5A5A5);
+}
+
+.sizes {
+    display: inline;
+}
+
+.unsplash {
+    filter: none;
+    width: 100%;
+    
+}
+.product{
+    background-color:#d3d3d3;
+    line-height: 1em;
+}
+
+.rating {
+    color:#5E6F56;
+}
+
+.succulents {
+    padding: 1em 0 1em 0 ;
+    
+}
+
+.product-color.melon {
+/* background-color: #F2B3B5; */
+}
+
+.swatch.melon {
+    display: block;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    background-color:#F2B3B5
+}
+
+.swatch.popstar {
+    display: block;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    background-color:#BE5B6A
+}
+
+.swatch.solidpink {
+    display: block;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    background-color:#8C3541
+}
+
+.choices {
+    display: inline-block;
+}
+
+
+
+@media screen and (min-width: 40em) {
+    body {
+      background-color: #d3d3d3;
+    
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+    /* .menu {
+        font-size: 3em;
+    } */
+  }
+  
+  @media screen and (min-width: 60em) {
+    body {
+      background-color: lightgray;
+    }
+    .layout {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+   
+  }
+
+  .layout{
+      display: grid;
+      grid-gap: 1em;
+  }
+
+
+

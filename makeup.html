@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito:400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <title>Makeup</title>
+</head>
+<body>
+    <div class="container">
+    
+        <header>
+          <nav class="top-bar" aria-label="Primary">
+            <!-- <nav class="top-bar" aria-label="Primary"> -->
+              <div>
+                <button class="btn" type="button">
+                  <span class="material-icons">menu</span>
+                </button>
+              </div>
+              
+              <ul class="menuuu">
+                <li><a href=index.html class= "menu allitems" href="#">All Items</a></li>
+                <li><a href=skincare.html class= "menu skincare" href="#">Skincare</a></li>
+                <li><a href=makeup.html class= "menu makeup" href="#">Makeup</a></li>
+              </ul>
+              <ul class="subitems">
+                <li class="choices list-kit"><a href="#"><span class="material-icons topbar">favorite_border</span></a></li>
+                <li class="choices list-kit"><a href="#"><span class="material-icons topbar">shopping_basket</span></a></li>
+              </ul>
+              
+              <form class="search">
+                <label>
+                  <input type="search" name="find" id="find">
+                </label>
+                <button type="button"><span class="material-icons">search</span></button>
+              </form>
+            </nav>
+
+            <a class="logo" href="index.html">
+                <img class="head" src="img/logo-trans.png" alt="greenface Logo">
+              </a>
+        </header>
+    
+    <h1 class="featured">makeup</h1>
+    
+    <!-- Product 5 -->
+    <div class="layout">
+    <article class = "product">
+        <header>
+          <img class="product-img" src="img/blush.jpg" alt="Blush Image">
+        </header>
+        <h3>pinkcheek</h3>
+        <p>A cream blush with a touch of shimmer to give your cheeks that rozy glo</p>
+        <form>
+          <fieldset>
+            <legend>Choose your colour...</legend>
+            <ul>
+              <li><label class="product-color melon"><input type="radio" name="colour" value="choice-melon"> 
+                <span class= "swatch melon"></span> </label></li>
+              <li><label class="product-color popstar"><input type="radio" name="colour" value="choice-popstar"> 
+                <span class= "swatch popstar"></span></label></li>
+              <li><label class="product-color solidpink"><input type="radio" name="colour" value="choice-solid-pink"> 
+                <span class= "swatch solidpink"></span></label></li>
+            </ul>
+          </fieldset>
+
+
+          <footer>
+            <dl>
+              <dt>Rating</dt>
+              <dd class="rating"><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons"></span></dd>
+            </dl>
+            <data value="39"><del></del> <ins>$25.00</ins></data>
+            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <!-- <button type="button"><span class="material-icons">favorite</span></button> -->
+            <!-- <a href="#">see more</a> -->
+          </footer>
+        </form>
+      </article>
+    
+          <!-- Product 5 -->
+    <article class = "product">
+        <header>
+          <img class="product-img" src="img/blush.jpg" alt="Blush Image">
+        </header>
+        <h3>pinkcheek</h3>
+        <p>A cream blush with a touch of shimmer to give your cheeks that rozy glo</p>
+        <form>
+          <fieldset>
+            <legend>Choose your colour...</legend>
+            <ul>
+              <li><label class="product-color melon"><input type="radio" name="colour" value="choice-melon"> 
+                <span class= "swatch melon"></span> </label></li>
+              <li><label class="product-color popstar"><input type="radio" name="colour" value="choice-popstar"> 
+                <span class= "swatch popstar"></span></label></li>
+              <li><label class="product-color solidpink"><input type="radio" name="colour" value="choice-solid-pink"> 
+                <span class= "swatch solidpink"></span></label></li>
+            </ul>
+          </fieldset>
+
+          <footer>
+            <dl>
+              <dt>Rating</dt>
+              <dd class="rating"><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons">eco</span><span class="material-icons"></span></dd>
+            </dl>
+            <data value="39"><del></del> <ins>$25.00</ins></data>
+            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <!-- <button type="button"><span class="material-icons">favorite</span></button> -->
+            <!-- <a href="#">see more</a> -->
+          </footer>
+        </form>
+    </article>
+    
+    
+    </div>
+  </div>
+  <!-- <img class = "succulents" src="img/succulents.jpg" alt="succulent pattern"> -->
+  <img class = "unsplash" src="img/unsplash.jpg" alt="backdrop pattern">
+  <!-- <img class = "succulents" src="img/succulents.jpg" alt="succulent pattern"> -->
+
+  <section role="navigation" aria-label="Pagination">
+    <p>1-5 of 23 products found</p>
+    <ol>
+      <li class=choices><a href="#" aria-label="Current Page, Page 1" aria-current="true">1</a></li>
+      <li class=choices><a href="#" aria-label="Page 2">2</a></li>
+      <li class=choices><a href="#" aria-label="Page 3">3</a></li>
+      <li class=choices><a href="#" aria-label="Page 4">4</a></li>
+      <li class=choices><a href="#" aria-label="Page 5">5</a></li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; Copyright, 1991.</p>
+  <nav aria-label="Legal">
+    <ul>
+      <li class=choices><a href="#">Terms of Use</a></li>
+      <li class=choices><a href="#">Privacy Policy</a></li>
+      <li class=choices><a href="#">Accessibility Policy</a></li>
+    </ul>
+  </nav>
+  <ul>
+    <li class=choices><a href="#"><span class="material-icons">face</span> Facebook</a></li>
+    <li class=choices><a href="#"><span class="material-icons">camera_alt</span> Instagram</a></li>
+    <li class=choices><a href="#"><span class="material-icons">alternate_email</span> Twitter</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
+
